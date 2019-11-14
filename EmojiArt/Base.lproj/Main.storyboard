@@ -75,17 +75,24 @@
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="rVX-XS-JDX">
                                 <rect key="frame" x="0.0" y="0.0" width="703.5" height="768"/>
                                 <subviews>
-                                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="6tp-h5-d3y" customClass="EmojiArtView" customModule="EmojiArt" customModuleProvider="target">
-                                        <rect key="frame" x="0.0" y="0.0" width="703.5" height="768"/>
-                                        <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
-                                    </view>
+                                    <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" ambiguous="YES" translatesAutoresizingMaskIntoConstraints="NO" id="KfW-uS-QSx">
+                                        <rect key="frame" x="0.0" y="0.0" width="704" height="768"/>
+                                        <constraints>
+                                            <constraint firstAttribute="width" priority="250" constant="704" id="Rh5-vm-CmA"/>
+                                            <constraint firstAttribute="height" priority="250" constant="768" id="pyS-vP-WGj"/>
+                                        </constraints>
+                                        <viewLayoutGuide key="contentLayoutGuide" id="xhZ-jw-s2C"/>
+                                        <viewLayoutGuide key="frameLayoutGuide" id="q0p-Id-yFw"/>
+                                    </scrollView>
                                 </subviews>
                                 <color key="backgroundColor" cocoaTouchSystemColor="groupTableViewBackgroundColor"/>
                                 <constraints>
-                                    <constraint firstItem="6tp-h5-d3y" firstAttribute="top" secondItem="rVX-XS-JDX" secondAttribute="top" id="FIf-ly-3rl"/>
-                                    <constraint firstAttribute="trailing" secondItem="6tp-h5-d3y" secondAttribute="trailing" id="NgO-sK-xS2"/>
-                                    <constraint firstAttribute="bottom" secondItem="6tp-h5-d3y" secondAttribute="bottom" id="npS-9F-yHv"/>
-                                    <constraint firstItem="6tp-h5-d3y" firstAttribute="leading" secondItem="rVX-XS-JDX" secondAttribute="leading" id="y3e-ll-qei"/>
+                                    <constraint firstItem="KfW-uS-QSx" firstAttribute="top" relation="greaterThanOrEqual" secondItem="rVX-XS-JDX" secondAttribute="top" id="69L-Ke-Qnr"/>
+                                    <constraint firstItem="KfW-uS-QSx" firstAttribute="centerY" secondItem="rVX-XS-JDX" secondAttribute="centerY" id="Fws-0X-ZPL"/>
+                                    <constraint firstAttribute="trailing" relation="greaterThanOrEqual" secondItem="KfW-uS-QSx" secondAttribute="trailing" id="RjT-hY-DHG"/>
+                                    <constraint firstAttribute="bottom" relation="greaterThanOrEqual" secondItem="KfW-uS-QSx" secondAttribute="bottom" id="XsY-Kr-F70"/>
+                                    <constraint firstItem="KfW-uS-QSx" firstAttribute="leading" relation="greaterThanOrEqual" secondItem="rVX-XS-JDX" secondAttribute="leading" id="sVW-nc-PWd"/>
+                                    <constraint firstItem="KfW-uS-QSx" firstAttribute="centerX" secondItem="rVX-XS-JDX" secondAttribute="centerX" id="vkd-up-stT"/>
                                 </constraints>
                             </view>
                         </subviews>
@@ -100,12 +107,14 @@
                     </view>
                     <connections>
                         <outlet property="dropZone" destination="rVX-XS-JDX" id="IN3-QM-P1l"/>
-                        <outlet property="emojiArtView" destination="6tp-h5-d3y" id="K5n-zv-oAI"/>
+                        <outlet property="scrollView" destination="KfW-uS-QSx" id="a6Q-Sr-V3M"/>
+                        <outlet property="scrollViewHeight" destination="pyS-vP-WGj" id="Cnz-df-a5E"/>
+                        <outlet property="scrollViewWidth" destination="Rh5-vm-CmA" id="aHA-oN-bjo"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="752" y="609"/>
+            <point key="canvasLocation" x="751.7578125" y="608.59375"/>
         </scene>
         <!--Navigation Controller-->
         <scene sceneID="li3-Ah-uY0">
