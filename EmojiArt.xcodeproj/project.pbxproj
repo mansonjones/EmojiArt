@@ -19,6 +19,7 @@
 		3C4B0630237DDE040043BC2F /* EmojiCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C4B062F237DDE040043BC2F /* EmojiCollectionViewCell.swift */; };
 		3C4B0632237DF77F0043BC2F /* EmojiArtView+Gestures.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C4B0631237DF77F0043BC2F /* EmojiArtView+Gestures.swift */; };
 		3C4B0634237E04CE0043BC2F /* TextFieldCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C4B0633237E04CE0043BC2F /* TextFieldCollectionViewCell.swift */; };
+		3C56E203237E26E10037A7DD /* EmojiArt.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C56E202237E26E10037A7DD /* EmojiArt.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -36,6 +37,7 @@
 		3C4B062F237DDE040043BC2F /* EmojiCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EmojiCollectionViewCell.swift; sourceTree = "<group>"; };
 		3C4B0631237DF77F0043BC2F /* EmojiArtView+Gestures.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "EmojiArtView+Gestures.swift"; sourceTree = "<group>"; };
 		3C4B0633237E04CE0043BC2F /* TextFieldCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextFieldCollectionViewCell.swift; sourceTree = "<group>"; };
+		3C56E202237E26E10037A7DD /* EmojiArt.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EmojiArt.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -72,6 +74,7 @@
 				3C263345237CD16300D7F8A4 /* SceneDelegate.swift */,
 				3C26335D237CF9E300D7F8A4 /* EmojiArtDocumentTableViewController.swift */,
 				3C263347237CD16300D7F8A4 /* EmojiArtViewController.swift */,
+				3C56E202237E26E10037A7DD /* EmojiArt.swift */,
 				3C4B062F237DDE040043BC2F /* EmojiCollectionViewCell.swift */,
 				3C263359237CD7B500D7F8A4 /* ImageFetcher.swift */,
 				3C263349237CD16300D7F8A4 /* Main.storyboard */,
@@ -158,6 +161,7 @@
 			files = (
 				3C4B0634237E04CE0043BC2F /* TextFieldCollectionViewCell.swift in Sources */,
 				3C4B0630237DDE040043BC2F /* EmojiCollectionViewCell.swift in Sources */,
+				3C56E203237E26E10037A7DD /* EmojiArt.swift in Sources */,
 				3C4B0632237DF77F0043BC2F /* EmojiArtView+Gestures.swift in Sources */,
 				3C263348237CD16300D7F8A4 /* EmojiArtViewController.swift in Sources */,
 				3C26335E237CF9E300D7F8A4 /* EmojiArtDocumentTableViewController.swift in Sources */,
